@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(177, 155, 147);
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -15,30 +18,50 @@
   background-color: seagreen;
   text-align: center;
   width: 100%;
-  padding: 40px;
+  padding: 55px;
+  font-size: 30px;
+  font-weight: bolder;
 }
 .container .box-2 {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   gap: 10px;
-  height: inherit;
+  height: 340px;
 }
 .box-2 .text-2 {
   background-color: seagreen;
   width: 20%;
-  padding: 60px;
+  padding: 10px;
   text-align: center;
-  height: 300px;
 }
 .box-2 .text-3 {
   background-color: seagreen;
   width: 80%;
   padding: 120px;
   text-align: center;
-  height: inherit;
 }
 .container .text-2 {
   position: relative;
   height: inherit;
+}
+.text-2 p {
+  top: 130px;
+  position: relative;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.text-3 p {
+  top: 30px;
+  position: relative;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.container .box-3 {
+  background-color: seagreen;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
 }
